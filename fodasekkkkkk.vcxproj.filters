@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="render\overlay.cpp">
+      <Filter>Render</Filter>
+    </ClCompile>
+    <ClCompile Include="render\render.cpp">
+      <Filter>Render</Filter>
+    </ClCompile>
+    <ClCompile Include="cheat\sdk.cpp">
+      <Filter>cheat</Filter>
+    </ClCompile>
+    <ClCompile Include="render\custom.cpp">
+      <Filter>Render</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="memory">
+      <UniqueIdentifier>{4959e88d-b6e6-4a2c-bdbe-dbfb7f6eccd3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cheat">
+      <UniqueIdentifier>{f3212f83-50ec-4081-8c5f-940a5b44a187}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Render">
+      <UniqueIdentifier>{0fb22f30-06f6-4a99-8581-298104347325}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utils">
+      <UniqueIdentifier>{eefff56d-5c43-49a6-95ff-323b20204f50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="globals">
+      <UniqueIdentifier>{caece4cb-946f-4cbf-bc55-b1539c4e5217}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="imgui">
+      <UniqueIdentifier>{6a255a88-af34-4ad5-9bd9-008de9a93a9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="directx">
+      <UniqueIdentifier>{7e8e5a6a-2ce2-42ce-b370-2cb6658704f9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="render\overlay.h">
+      <Filter>Render</Filter>
+    </ClInclude>
+    <ClInclude Include="render\render.h">
+      <Filter>Render</Filter>
+    </ClInclude>
+    <ClInclude Include="uitls\Vector.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="uitls\includes.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="uitls\bones.hpp">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="globals\globals.h">
+      <Filter>globals</Filter>
+    </ClInclude>
+    <ClInclude Include="cheat\sdk.h">
+      <Filter>cheat</Filter>
+    </ClInclude>
+    <ClInclude Include="memory\memory.hpp">
+      <Filter>memory</Filter>
+    </ClInclude>
+    <ClInclude Include="globals\Draw.hpp">
+      <Filter>globals</Filter>
+    </ClInclude>
+    <ClInclude Include="render\custom.hpp">
+      <Filter>Render</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
